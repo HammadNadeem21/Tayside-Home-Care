@@ -56,9 +56,9 @@
     --text-color-1: #575D5E;
     --text-color-2: #D4D4D4;
     --heading-color: #0C1516;
-    --color-main: #2C8391;
-    --color-darker: #13383E;
-    --color-lighter: #83D8E5;
+    --color-main: #653a7a;
+    --color-darker: #653a7a;
+    --color-lighter: #653a7a;
     --color-subtle: #F7F5EB;
     --color-border: #B7C1C3;
     --color-accent: #EDECE3;
@@ -241,7 +241,7 @@ img {
 .navbar-toggler-icon {
     width: 30px;
     height: 30px;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2844, 131, 145, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2844, 131, 145, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); */
 }
        
 .navbar-toggler-icon:hover {
@@ -441,6 +441,33 @@ img {
 .z-index-5 { z-index: 5; }
 .w-hero { width: 55%; }
 
+/* Hero Service Tags */
+.hero-service-tags {
+    font-family: var(--font-2);
+    font-size: 15px;
+    color: white;
+    line-height: 1.8;
+}
+
+.hero-tag-item {
+    color: white;
+    font-weight: 500;
+}
+
+.hero-tag-icon {
+    color: #653a7a;
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+.hero-tag-separator {
+    color: white;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+/* Support line */
+
 /* Buttons */
 .btn-hero-1, .btn-hero-2, .btn-hero-3 {
     font-size: 14px;
@@ -450,23 +477,26 @@ img {
 
 .btn-hero-1 {
     background-color: var(--color-lighter);
-    color: var(--heading-color);
+    /* color: var(--heading-color); */
+    color: white;
     border: none;
 }
 
-.btn-hero-1:hover { background-color: white; }
+.btn-hero-1:hover { background-color: white;
+color: var(--color-lighter);
+}
 
 .btn-hero-2 {
-    background-color: transparent;
-    color: white;
+    background-color: white;
+    color: #653a7a;
     font-size: 14x;
     border: 1px solid white;
 }
 
-.btn-hero-2:hover {
+/* .btn-hero-2:hover {
     background-color: white;
     color: var(--heading-color);
-}
+} */
 
 .btn-hero-3 {
     background-color: white;
@@ -489,7 +519,7 @@ img {
 .card-hero-wrapper {
     position: absolute;
     left: 2%;
-    top: -14%;
+    top: -12%;
     z-index: 100;
 }
 .card-offer {
@@ -680,10 +710,10 @@ img {
     border-radius: 40px;
 }
 
-.btn-main:hover {
+/* .btn-main:hover {
     background-color: var(--color-darker);
-    color: white;
-}
+    color: #653a7a;
+} */
 
 .max-w-content {
     max-width: max-content;
@@ -702,6 +732,7 @@ img {
 .img-sidebar {
     width: 140px;
     height: 40px;
+    object-fit: contain;
 }
 
 .card-value {
