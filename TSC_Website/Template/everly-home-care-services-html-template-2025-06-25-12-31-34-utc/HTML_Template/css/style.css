@@ -59,8 +59,8 @@
     --color-main: #653a7a;
     --color-darker: #653a7a;
     --color-lighter: #653a7a;
-    --color-subtle: #F7F5EB;
-    --color-border: #B7C1C3;
+    --color-subtle: white;
+    --color-border: white;
     --color-accent: #EDECE3;
     --color-error: #E22D2D;
     --color-warning: #E2D52D;
