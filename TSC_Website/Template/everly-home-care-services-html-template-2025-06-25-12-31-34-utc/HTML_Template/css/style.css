@@ -868,7 +868,7 @@ color: var(--color-lighter);
 }
 
 .bg-banner {
-    background-image: linear-gradient(rgba(12, 21, 22, 0.6), rgba(12, 21, 22, 0.6)), url('../img/banner-1.jpg');
+    background-image: linear-gradient(rgba(12, 21, 22, 0.6), rgba(12, 21, 22, 0.6)), url('../img/Extra/TSC\ \(10\).png');
 }
 
 .bg-banner-1 {
@@ -880,11 +880,11 @@ color: var(--color-lighter);
 }
 
 .bg-banner-3 {
-    background-image: linear-gradient(rgba(12, 21, 22, 0.6), rgba(12, 21, 22, 0.6)), url('../img/blog-post-2.jpg');
+    background-image: linear-gradient(rgba(12, 21, 22, 0.6), rgba(12, 21, 22, 0.6)), url('../img/RespiteCare/04B.png');
 }
 
 .bg-banner-4 {
-    background-image: linear-gradient(rgba(12, 21, 22, 0.6), rgba(12, 21, 22, 0.6)), url('../img/bg-hero-1.jpg');
+    background-image: linear-gradient(rgba(12, 21, 22, 0.6), rgba(12, 21, 22, 0.6)), url('../img/OvernightCare/02.png');
 }
 
 .bg-banner-5 {
