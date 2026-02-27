@@ -468,6 +468,21 @@ img {
 
 /* Support line */
 
+/* Hero Trust List */
+.hero-trust-list {
+    position: absolute;
+    right: 0;
+    top: 55%;
+    transform: translateY(-50%);
+    width: 38%;
+    z-index: 10;
+}
+
+.hero-trust-list span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
 /* Buttons */
 .btn-hero-1, .btn-hero-2, .btn-hero-3 {
     font-size: 14px;
@@ -888,7 +903,7 @@ color: var(--color-lighter);
 }
 
 .bg-banner-5 {
-    background-image: linear-gradient(rgba(12, 21, 22, 0.6), rgba(12, 21, 22, 0.6)), url('../img/service-detail-1.jpg');
+    background-image: linear-gradient(rgba(12, 21, 22, 0.6), rgba(12, 21, 22, 0.6)), url('../img/PersonalCare/03.png');
 }
 
 .text-post-terms {
@@ -1370,6 +1385,15 @@ color: var(--color-lighter);
     }
 
     .w-hero { width: 100%; }
+
+    .hero-trust-list {
+        position: relative;
+        right: auto;
+        top: auto;
+        transform: none;
+        width: 100%;
+        margin-top: 30px;
+    }
 
     .footer-text { width: 65%; text-align: center; }
 
