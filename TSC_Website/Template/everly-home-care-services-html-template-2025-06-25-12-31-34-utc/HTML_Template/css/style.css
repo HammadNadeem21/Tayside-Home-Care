@@ -779,6 +779,8 @@ color: var(--color-lighter);
 .img-partner-9,
 .img-partner-10 {
     width: 180px;
+    height: 54px;
+    object-fit: contain;
 }
 
 .bg-service {
