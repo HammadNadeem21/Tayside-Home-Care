@@ -778,8 +778,8 @@ color: var(--color-lighter);
 .img-partner-8,
 .img-partner-9,
 .img-partner-10 {
-    width: 180px;
-    height: 54px;
+    width: 160px;
+    height: 80px;
     object-fit: contain;
 }
 
